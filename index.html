@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+      
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+     
+
+
+    </head>
+
+    <body>
+
+		<!-- Top menu -->
+		<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+		
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<h1 Style="color:white;">Aizpildi formu</h1>
+				<a href="www.go2code.com">Go Back</a>
+			</div>
+		</nav>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 text">
+                            
+                            
+                            
+                        </div>
+                        <div class="col-sm-4 form-box">
+                        	
+                            <div class="form-bottom">
+			                    <form action="form.php" method="post" class="registration-form">
+			                    	
+			                    		
+			     
+										<p> Rēķina Nr: </p>
+			                        	<input type="text" name="rekina-nr" placeholder="Rēķina Nr." class="form-last-name form-control" id="form-last-name" required><br><br>
+										
+										<p> Datums: </p>
+			                        	<input type="text" name="san-datums" placeholder="Saņemšanas datums" class="form-first-name form-control" id="form-first-name" required><br>
+			                        	<input type="text" name="apm-datums" placeholder="Apmaksas datums" class="form-first-name form-control" id="form-first-name" required><br><br>
+										
+										<p> Rēķinu saņēma: </p>
+			                        	<input type="text" name="rekina-sanemejs" placeholder="Rēķina saņēmējs" class="form-first-name form-control" id="form-first-name" required><br><br>
+			                       
+										<p> Reģistrācijas nr: </p>
+			                        	<input type="text" name="reg-nr" placeholder="Reģistrācijas Nr" class="form-first-name form-control" id="form-first-name" required><br><br>
+										
+										<p> Adrese: </p>
+										<input type="text" name="adrese-iela" placeholder="Novads/Iela/māja ( piemēram - Cēsu nov., Cēsis, Lielā Skolas iela 6 )" class="form-first-name form-control" id="form-first-name" required><br>
+										<input type="text" name="pasta-indeks" placeholder="Pasta indeks" class="form-first-name form-control" id="form-first-name" required><br><br>
+										
+										<p> Telefons: </p>
+										<input type="text" name="tele" placeholder="Telefons" class="form-first-name form-control" id="form-first-name" required><br><br>
+									
+										<p> Kontaktpersona / E-pasts: </p>
+										<input type="text" name="kontakt-persona" placeholder="Kontaktpersona" class="form-first-name form-control" id="form-first-name" required><br>
+										<input type="email" name="email" placeholder="Email..." class="form-email form-control" id="form-email" ><br><br>
+										
+										<p> Bankas dati: </p>
+			                        	<input type="text" name="banka" placeholder="Banka" class="form-first-name form-control" id="form-first-name" required><br>
+										<input type="text" name="swift" placeholder="Swift kods" class="form-first-name form-control" id="form-first-name" required><br>
+										<input type="text" name="konts" placeholder="Konts" class="form-first-name form-control" id="form-first-name" required><br><br>
+										
+										<p> Rēķins par: </p>
+										<textarea  rows="10" cols="70" name="rekins-par" placeholder="Rēķins par" class="form-first-name form-control" id="form-first-name" required></textarea><br><br>
+										
+											
+										<p> Darbs: </p>
+			                        	<input type="text" name="stundas-likme" placeholder="stundas likme" class="form-first-name form-control" id="form-first-name" required><br>
+							  			<input type="text" name="stundas" placeholder="stundas" class="form-first-name form-control" id="form-first-name" required><br>
+										
+			                        </div>
+			                      
+			                        
+									
+			                        <button type="submit" class="btn" name="create">Create PDF</button>
+			                    </form>
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+<php? 
+$rez = $stundas * $stundas-likme
+
+?>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
